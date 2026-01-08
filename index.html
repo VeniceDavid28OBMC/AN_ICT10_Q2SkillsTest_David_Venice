@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>UNIVERSITY NG SANTO TOMAS - CLUBS</title>
+
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+<style>
+@font-face {
+    font-family: 'Sloop-ScriptThree';
+    src: url('fonts/Sloop-ScriptThree.ttf');
+}
+@font-face {
+    font-family: 'Bodoni-72-book';
+    src: url('fonts/Bodoni-72-book.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.top-bar {
+    background-color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-left img {
+    height: 80px;
+}
+
+.top-text {
+    font-family: Garamond, serif;
+    line-height: 1.2;
+}
+
+.top-text .title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.top-text .subtitle {
+    font-size: 14px;
+}
+
+.portal {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.portal .ust {
+    color: #f2b705;
+}
+
+.navbar-bottom {
+    background-color: black;
+    padding: 12px 40px;
+    text-align: center;
+    border-bottom: 4px solid #f2b705;
+}
+
+.navbar-bottom ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-bottom a {
+    text-decoration: none;
+    font-family: Garamond, serif;
+    font-size: 22px;
+    color: white;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.navbar-bottom a:hover {
+    color: #f2b705;
+    transform: scale(1.1);
+    border-bottom: 2px solid #f2b705;
+}
+
+.navbar-bottom a.active {
+    color: #f2b705;
+}
+
+.main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Garamond;
+}
+
+.clubintro {
+    position: relative;
+    background-image: url("USTHEADER.png");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+.section2 {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title2 {
+    font-size: 28px;
+    color: #f2b705;
+    text-align: center;
+    background-color: black;
+    font-family:'Bodoni-72-book';
+    padding: 12px;
+    border-bottom: solid 4px #f2b705;
+}
+
+.title3 {
+    font-size: 28px;
+    color: #f2b705;
+    text-align: center;
+    background-color: black;
+    font-family:'Bodoni-72-book';
+    padding: 12px;
+    border-bottom: solid 4px #f2b705;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Garamond;
+}
+
+h1 {
+    text-align: center;
+    color: #f2b705;
+    margin-bottom: 20px;
+}
+
+select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:'Bodoni-72-book';
+}
+
+button {
+    background-color: #f2b705;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: Garamond;
+}
+
+.info-box {
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #f2b705;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family:'Bodoni-72-book';
+}
+
+.club-image img {
+    width: 220px;
+    border-radius: 8px;
+}
+
+.club-details {
+    flex: 1;
+    font-family:'Bodoni-72-book';
+    font-size: 24px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-left">
+        <img src="USTLOGO.png">
+        <div class="top-text">
+            <div class="subtitle">PONTIFICIAL AND ROYAL</div>
+            <div class="title">UNIVERSITY OF SANTO TOMAS</div>
+            <div class="subtitle">THE CATHOLIC UNIVERSITY OF THE PHILIPPINES</div>
+        </div>
+    </div>
+    <div class="portal">
+        <span class="ust">MyUSTe</span>Portal
+    </div>
+</div>
+
+<div class="navbar-bottom">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="indexgrade.html">GRADES</a></li>
+        <li><a href="clubs.html">CLUBS</a></li>
+    </ul>
+</div>
+
+<div class="clubintro">
+    <div class="section2">
+        <div class="title2">CLUBS IN UST</div>
+        <p class="description">
+            University of Santo Tomas (UST) clubs offer students a vibrant space to explore 
+            their interests beyond the classroom. These organizations cater to a wide range 
+            of passions, including academics, arts, culture, sports, leadership, media, and 
+            advocacy. Through club activities, students develop essential skills such as 
+            teamwork, communication, and leadership. UST clubs also provide opportunities to 
+            build lifelong friendships and a strong sense of belonging within the Thomasian 
+            community. Members are encouraged to express creativity, pursue excellence, and 
+            serve others. Many clubs actively participate in university-wide events, 
+            competitions, and outreach programs. By joining a club, students can enhance their 
+            personal growth while contributing to the rich traditions of UST. Overall, UST 
+            clubs play a vital role in shaping well-rounded, engaged, and socially responsible Thomasians.
+        </p>
+    </div>
+</div>
+
+<div class="title3">UST CLUB INFORMATION</div>
+<div class="main">
+<select id="club">
+    <option value="film">Thomasian Film Society</option>
+    <option value="debate">Thomasian Debaters Council</option>
+    <option value="cfc">CFC Youth for Christ</option>
+    <option value="bosco">Bosconian Thomasian Youth Movement</option>
+    <option value="annyeong">Annyeong Tomasino</option>
+    <option value="nihon">Thomasian Nihon Kyoukai</option>
+    <option value="yellow">UST Yellow Jackets</option>
+    <option value="media">Tomasian Media Circle and Talents</option>
+    <option value="unicef">UST Volunteers for UNICEF</option>
+    <option value="hiraya">UST Hiraya</option>
+</select>
+
+<button py-click="show_info">SHOW CLUB INFORMATION</button>
+
+<div class="info-box">
+    <div class="club-image">
+        <img id="club_img">
+    </div>
+    <div class="club-details" id="club_info">
+        Select a club to see details.
+    </div>
+</div>
+
+<script type="py" src="clubs.py"></script>
+</div>
+
+</body>
+</html>
